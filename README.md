@@ -45,8 +45,9 @@ A React-based project management application inspired by Trello, featuring drag-
 
 ### Installation
 
-1. Clone the repository
+
 ```bash
+1. Clone the repository
 git clone https://github.com/yourusername/trello-clone.git
 
 2. Navigate to project directory
@@ -81,26 +82,30 @@ trello-clone/
 │   └── utils/          # Utility functions
 └── public/            # Static files
 
-Key Features Implementation
-Authentication
-Local storage based user management
-Protected routes
-Session persistence
-Project Management
-Project creation and listing
-Cover image management
-Pagination for better performance
-Task Management
-Drag and drop interface
-Real-time status updates
-Task details modal
-Responsive task cards
+Key Features: 
+. Implementation
+. Authentication
+. Local storage based user management
+. Protected routes
+. Session persistence
+. Project Management
+. Project creation and listing
+. Cover image management
+. Pagination for better performance
+. Task Management
+. Drag and drop interface
+. Real-time status updates
+. Task details modal
+. Responsive task cards
+
 Contributing
-Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+. Fork the repository
+. Create your feature branch (git checkout -b feature/AmazingFeature)
+. Commit your changes (git commit -m 'Add some AmazingFeature')
+. Push to the branch (git push origin feature/AmazingFeature)
+. Open a Pull Request
+
+
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
