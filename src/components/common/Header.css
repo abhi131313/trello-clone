@@ -1,0 +1,62 @@
+/* src/components/common/Header.css */
+.header {
+    background-color: #026aa7;
+    padding: var(--spacing-md) var(--spacing-lg);
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--spacing-md);
+  }
+  
+  .header-title {
+    margin: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+  }
+  
+  .user-info {
+    font-size: 0.9rem;
+  }
+  
+  .logout-button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+  }
+  
+  .logout-button:hover {
+    background-color: white;
+    color: #026aa7;
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      padding: var(--spacing-sm) var(--spacing-md);
+    }
+  
+    .header-title {
+      font-size: 1.2rem;
+    }
+  
+    .user-info {
+      display: none;
+    }
+  }

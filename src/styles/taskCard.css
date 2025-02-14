@@ -1,0 +1,82 @@
+.task-content {
+  cursor: pointer;
+  padding: 8px;
+}
+
+.task-description-preview {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.task-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.task-popup {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.close-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.close-button:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.task-popup-content {
+  margin-top: 12px;
+}
+
+.task-popup-content h2 {
+  margin: 0 0 16px 0;
+  color: #172b4d;
+}
+
+.task-description {
+  margin-bottom: 24px;
+  line-height: 1.5;
+  color: #444;
+}
+
+.task-detail {
+  display: flex;
+  margin-bottom: 12px;
+  padding: 8px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.task-detail .label {
+  font-weight: 600;
+  margin-right: 8px;
+  color: #172b4d;
+  min-width: 100px;
+}
